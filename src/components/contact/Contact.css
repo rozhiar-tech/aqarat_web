@@ -1,0 +1,84 @@
+.c-wrapper {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.c-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #011f13;
+}
+.c-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ffda96;
+}
+
+.c-container {
+  justify-content: space-between;
+}
+
+.c-container > div {
+  flex: 1;
+}
+
+.c-right {
+  width: 100%;
+}
+
+.c-left {
+  gap: 0.5rem;
+}
+.contactModes {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.contactModes .row {
+  gap: 1.5rem;
+}
+
+.mode {
+  width: 18rem;
+
+  padding: 1rem;
+  border: 0.6px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.mode .button {
+  width: 100%;
+  background: #ffda96;
+  color: #011f13;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.mode > :nth-child(1) {
+  width: 100%;
+  gap: 1.1rem;
+}
+.subtitle {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #011f13;
+}
+
+.mode .detail .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.mode:hover {
+  scale: 1.05;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mode .button:hover {
+  background: #011f13;
+  color: #ffda96;
+  scale: 0.8;
+}
