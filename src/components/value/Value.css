@@ -1,0 +1,67 @@
+.span-head {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffda96;
+  margin-bottom: 1rem;
+}
+
+.span-subHead {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #011f13;
+  margin-bottom: 1rem;
+}
+
+.span-body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #011f13;
+  margin-bottom: 1rem;
+}
+
+.v-container .image-container {
+  border: 8px solid #ffda96;
+}
+
+.v-container > div {
+  flex: 1;
+}
+.v-right {
+  gap: 0.5rem;
+}
+.v-wrapper {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+.accordion {
+  margin-top: 2rem;
+  border: none;
+}
+
+.accordionItem {
+  background: wheat;
+  border: 0.8rem, solid, #ffda96;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.accordionItem.expanded {
+  box-shadow: #011f13;
+  border-radius: 6px;
+}
+.acordionButton {
+  background-color: #ffda96;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.icon {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #011f13;
+}
+
+.icon svg {
+  fill: #ffda96;
+}

@@ -6,3 +6,8 @@
 .c-container > img {
   width: 9rem;
 }
+
+.c-wrapper {
+  background-color: #fff;
+  padding: 2rem 0;
+}
