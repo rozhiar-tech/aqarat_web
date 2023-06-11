@@ -1,0 +1,32 @@
+.f-wrapper {
+  background-color: #fff;
+}
+
+.f-container {
+  justify-content: space-between;
+}
+.f-left {
+  gap: 1rem;
+}
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.f-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #011f13;
+}
+.f-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffda96;
+}
+
+.f-location {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(1, 31, 19, 0.5);
+}

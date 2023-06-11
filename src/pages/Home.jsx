@@ -6,6 +6,7 @@ import Companies from "../components/companies/Companies";
 import Residencies from "../components/residencies/Residencies";
 import Value from "../components/value/Value";
 import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Footer";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Residencies />
       <Value />
       <Contact />
+      <Footer />
     </div>
   );
 }
