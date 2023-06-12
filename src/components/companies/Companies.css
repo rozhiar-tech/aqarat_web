@@ -1,9 +1,9 @@
-.c-container {
+.company-container {
   justify-content: space-around;
   gap: 2rem;
 }
 
-.c-container > img {
+.company-container > img {
   width: 9rem;
 }
 

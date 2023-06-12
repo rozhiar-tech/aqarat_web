@@ -40,7 +40,6 @@
 
 .mode {
   width: 18rem;
-
   padding: 1rem;
   border: 0.6px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -81,4 +80,48 @@
   background: #011f13;
   color: #ffda96;
   scale: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .c-wrapper {
+    padding: 1rem 0;
+  }
+  .c-title {
+    font-size: 1.5rem;
+  }
+  .c-subtitle {
+    font-size: 1rem;
+  }
+  .c-container {
+    flex-direction: column;
+  }
+
+  .c-right {
+    margin-top: 1rem;
+  }
+  .c-left {
+    flex-direction: column;
+  }
+  .contactModes {
+    margin-top: 1rem;
+  }
+  .contactModes .row {
+    flex-direction: column;
+  }
+
+  .mode > :nth-child(1) {
+    width: 100%;
+  }
+  .mode .detail {
+    flex-direction: column;
+  }
+  .mode .detail .title {
+    font-size: 1rem;
+  }
+  .mode .detail .subtitle {
+    font-size: 0.8rem;
+  }
+  .mode .button {
+    font-size: 0.8rem;
+  }
 }

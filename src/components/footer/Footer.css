@@ -30,3 +30,14 @@
   font-weight: 500;
   color: rgba(1, 31, 19, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+  .f-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .f-left {
+    flex-direction: column;
+  }
+}

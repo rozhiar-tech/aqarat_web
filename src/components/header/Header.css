@@ -1,5 +1,6 @@
-/* .h-wrapper {
-} */
+.h-wrapper {
+  z-index: 99;
+}
 
 .h-container {
   justify-content: space-between;
@@ -19,11 +20,12 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
   }
   .h-menu {
+    z-index: 99;
     color: #010101;
     position: absolute;
     top: 3rem;

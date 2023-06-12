@@ -30,7 +30,9 @@ function Header() {
         </OutsideCliHandler>
         <div
           className="menu-icon"
-          onClick={() => setShowMenu((...prev) => !prev)}
+          onClick={() => {
+            setShowMenu(!showMenu);
+          }}
         >
           <BiMenuAltRight size={30} />
         </div>

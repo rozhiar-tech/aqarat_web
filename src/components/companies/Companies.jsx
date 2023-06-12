@@ -3,10 +3,12 @@ import "./Companies.css";
 function Companies() {
   return (
     <section className="c-wrapper">
-      <div className="paddings innerWidth flexCenter c-container">
-        <img src="./prologis.png" alt="prologis" />
-        <img src="./tower.png" alt="amazon" />
-        <img src="./realty.png" alt="amazon" />
+      <h1 className="text-4xl font-bold text-gold paddings flexCenter">
+        Download Our Apps On
+      </h1>
+      <div className="paddings innerWidth flexCenter company-container">
+        <img src="./AppStore.png" alt="AppStore" />
+        <img src="./PlayStore.png" alt="playstore" />
       </div>
     </section>
   );
