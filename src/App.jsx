@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Single_Property from "./pages/single/Single_Property";
+import Residencies from "./components/residencies/Residencies";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/single-property" element={<Single_Property />} />
+        
       </Routes>
     </div>
   );

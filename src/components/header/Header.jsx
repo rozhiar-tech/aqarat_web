@@ -22,9 +22,9 @@ function Header() {
         >
           <div className="flexCenter h-menu" style={getMenuStyle(showMenu)}>
             <a href="/">Home</a>
-            <a href="/">About</a>
-            <a href="/">Services</a>
-            <a href="/">Contact</a>
+            <a href="#residencie">Residencies</a>
+            <a href="#companies">Download</a>
+            <a href="#value">ValueS</a>
             <button className="button">Login</button>
           </div>
         </OutsideCliHandler>

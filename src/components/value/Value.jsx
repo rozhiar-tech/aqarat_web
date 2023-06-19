@@ -16,7 +16,7 @@ function Value() {
   const [className, setClassName] = useState("collapsed");
 
   return (
-    <div className="v-wrapper">
+    <div className="v-wrapper" id="value">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left Side */}
         <div className="v-left">

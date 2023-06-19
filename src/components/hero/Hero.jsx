@@ -25,7 +25,7 @@ function Hero() {
           </div>
           <div className="flexCenter search-bar">
             <HiLocationMarker color="#ffda96" size={25} />
-            <input type="text" placeholder="Search Location" />
+            <input type="text" placeholder="Search Property" />
             <button className="button">Search</button>
           </div>
           <div className="flexCenter hero-stats">

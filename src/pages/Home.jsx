@@ -7,6 +7,7 @@ import Residencies from "../components/residencies/Residencies";
 import Value from "../components/value/Value";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
+import ChatBot from "../components/chatBot/ChatBot";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <Header />
         <Hero />
       </div>
+      <ChatBot />
       <Companies />
       <Residencies />
       <Value />

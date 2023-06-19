@@ -2,7 +2,7 @@ import React from "react";
 import "./Companies.css";
 function Companies() {
   return (
-    <section className="c-wrapper">
+    <section className="c-wrapper" id="companies">
       <h1 className="text-4xl font-bold text-gold paddings flexCenter">
         Download Our Apps On
       </h1>

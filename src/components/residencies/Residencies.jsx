@@ -7,6 +7,7 @@ import { sliderSettings } from "../../utils/commom";
 import app from "../../firebaseInit";
 import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
 import { useEffect, useState } from "react";
+
 function Residencies() {
   const db = getFirestore(app);
   const [propertyList, setPropertyList] = useState([]);
@@ -26,7 +27,7 @@ function Residencies() {
   };
 
   return (
-    <section className="r-wrapper">
+    <section className="r-wrapper" id="residencie">
       <div className="paddings innerWidth  r-container">
         <div className="r-title flexColStart">
           <span className="span-head">Best Choice</span>
